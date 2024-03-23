@@ -4,8 +4,16 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start": "node ./src/app.js"
+    "start": "node ./src/app.js",
+    "param": "node ./src/app.js -p -15 0 20",
+    "p1": "node ./src/app.js -p -10 0 -t IBAPRO",
+    "p2": "node ./src/app.js -p -20 5 -t IBAPRO",
+    "p3": "node ./src/app.js -p -20 0 -t IBAPRO",
+    "g1": "node ./src/app.js -p -51 0 -t MILKYWAY -r goalie"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
 }
